@@ -61,4 +61,13 @@ public class Scramble {
         return generatedScramble;
 
     }
+
+    private ArrayList<String> getScramble() {
+        return this.scramble;
+    }
+
+    private LocalTime getTimeCreated() {
+        return this.timeCreated;
+    }
+
 }
